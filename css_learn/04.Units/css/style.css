@@ -1,0 +1,22 @@
+.box {
+    background-color: red;
+    outline: solid black;
+    margin: 1rem;
+}
+
+.fifty-percent {
+    width: 50%;
+}
+
+.one-hundred-percent {
+    width: 100px;
+}
+
+.parent {
+    width: 135px;
+    outline: solid black;
+}
+
+h1 {
+    font-size: 3rem;
+}
