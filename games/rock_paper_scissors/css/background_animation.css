@@ -11,6 +11,6 @@
   
   .backgroundAnimated{    
       background-image:none !important; 
-           -o-animation: fadeIt 5s ease-in-out; 
-              animation: fadeIt 5s ease-in-out; 
+           -o-animation: fadeIt 1s ease-in-out; 
+              animation: fadeIt 2s ease-in-out; 
   }
