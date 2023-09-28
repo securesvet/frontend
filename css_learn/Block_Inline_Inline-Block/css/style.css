@@ -1,0 +1,41 @@
+body {
+    font-family: basic-sans, sans-serif;
+}
+
+h1 {
+    color: orange;
+}
+
+p {
+    width: 50rem;
+    font-size: 1.5rem;
+    outline: 3px solid orange;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    align-items: center;
+    background-color: lightblue;
+    padding: 30px 90px;
+    text-decoration: none;
+    color: blue;
+    transition: 200ms transform ease-in-out;
+}
+
+.btn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
