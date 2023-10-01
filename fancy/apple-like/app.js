@@ -36,13 +36,8 @@ window.addEventListener('scroll', () => {
     const scrollFraction = scrollTop / maxScrollTop;
     const frameIndex = Math.min(frameCount - 1, ~~(scrollFraction * frameCount) + 1)
     img.onload = updateImage(frameIndex);
-    console.log(frameIndex)
-    // TODO: ВЫУЧИТЬ ПРОМИСЫ, АСИНК И ПОДОБНОЕ, ЧТОБЫ ИЗБЕГАТЬ ТАКИХ КОСТЫЛЕЙ И ПОЧИНИТЬ ЭТО
-    // Когда доскроллит до 148, то position меняем на relative
     if (frameIndex >= frameCount - 10) {
         canvas.style.position = "relative";
-        wrapper.style.height = "100vh";
-        console.log('yes')
     }
     else {
         wrapper.style.height = "250vh";
