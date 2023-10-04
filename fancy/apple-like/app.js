@@ -37,11 +37,9 @@ window.addEventListener('scroll', () => {
     const frameIndex = Math.min(frameCount - 1, ~~(scrollFraction * frameCount) + 1)
     img.onload = updateImage(frameIndex);
     if (frameIndex >= frameCount - 10) {
-        canvas.style.position = "relative";
+        canvas.style.position = "static";
     }
     else {
-        wrapper.style.height = "250vh";
         canvas.style.position = "fixed";
     }
-
 })
